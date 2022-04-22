@@ -14,29 +14,29 @@ public class GamblerGameUC3 {
 	        
 	        if(bet==1){
 	        	while(gamblerEarn<150){
-	            gamblerEarn++;
-	              if(gamblerEarn==150){
-	        	    System.out.println("Gambler win the game");
-	        	    System.out.println("Gambler end the game and he has left with amount"+ gamblerEarn );
-	              }
-	        	}
+	                  gamblerEarn++;
+	                    if(gamblerEarn==150){
+	        	       System.out.println("Gambler win the game");
+	        	       System.out.println("Gambler end the game and he has left with amount"+ gamblerEarn );
+	                   }
+	               }
 	        	
 	        	//System.out.println("Gambler end the game and he has left with amount"+ gamblerEarn );
 	        }
 	        	else{
-	        	while(gamblerLoss>50){
+	        	 while(gamblerLoss>50){
 		            gamblerLoss--;
 		              if(gamblerLoss==50){
 	                    System.out.println("Gambler loss the game");
 	                    System.out.println("Gambler end the game and he has left with amount"+ gamblerLoss );
-		            }
-	        	  }
+		              }
+	        	 }
 	        	  //System.out.println("Gambler end the day and he left with the amount "+ gamblerLoss );
 	        	  
-	        }
-	        		
-	       }
-    }
+	           }
+	    
+     }
+}
 
 	    
 
